@@ -1,15 +1,15 @@
 import { ChainId } from "@thirdweb-dev/sdk";
 
-export const targetChainId = ChainId.Mumbai;
+export const targetChainId = ChainId.Polygon;
 
 /***
  * Need to add support for your own network
  */
 export const getEtherscanURL = () => {
-  if (targetChainId === ChainId.Mumbai) {
-    return "https://mumbai.polygonscan.com";
+  if (targetChainId === ChainId.Polygon) {
+    return "https://polygonscan.com";
   } else {
-    console.log("Please add etherscan URL for your network");
+    console.log("Please add blockchain scan-site URL for your network");
     return undefined;
   }
 };
