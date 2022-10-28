@@ -10,8 +10,8 @@ interface IAddresses {
  * To tell your app where to point to, change the targetChainId
  */
 const ADDRESSES: IAddresses = {
-  [ChainId.Goerli]: {
-    Marketplace: "0x14f3d32B90Ede9922Fd7EE4FDfD3AabbEA423aD0",
+  [ChainId.Polygon]: {
+    Marketplace: "0x1487CD62b68457543B0B314ad67013a43efaB11C",
   },
 };
 
